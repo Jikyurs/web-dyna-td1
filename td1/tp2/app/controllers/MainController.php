@@ -1,9 +1,12 @@
 <?php
 namespace controllers;
+
+use ws\controllers\AbstractWsController;
+
  /**
  * Controller MainController
  **/
-class MainController extends ControllerBase{
+class MainController extends AbstractWsController{
     /**
      *
      * @get("_default","name"=>"Home")
@@ -21,7 +24,7 @@ class MainController extends ControllerBase{
 
 
 	/**
-	 *@route("partners","methods"=>["get"],"name"=>"Partners")
+	 *@route("partners","methods"=>["get"],"name"=>)
 	**/
 	public function partnersList(){
 		
