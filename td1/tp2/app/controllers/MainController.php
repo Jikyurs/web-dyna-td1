@@ -18,13 +18,13 @@ class MainController extends AbstractWsController{
 	**/
 	public function contactForm(){
 		
-		$this->loadView('MainController/contactForm().html');
+		$this->loadView('MainController/contactForm.html');
 
 	}
 
 
 	/**
-	 *@route("partners","methods"=>["get"],"name"=>)
+	 *@route("partners","methods"=>["get"],"name"=>"Partners")
 	**/
 	public function partnersList(){
 		
