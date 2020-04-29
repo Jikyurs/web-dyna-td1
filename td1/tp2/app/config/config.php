@@ -27,3 +27,4 @@ return array(
 			return \Ubiquity\utils\http\URequest::getUrlParts()[0]==="rest";
 		}
 );
+//Router::addRoute("_default", "controllers\\IndexController");
