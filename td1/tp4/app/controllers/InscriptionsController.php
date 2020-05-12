@@ -20,6 +20,13 @@ namespace controllers;
 	public function button(){
 	    $this->loadView("InscriptionsController/button.html");
 	}
-
 	
-}
+	
+	/**
+	 *@route("/do/inscription","methods"=>["get"])
+	**/
+	public function Inscription($name,$mail){
+	    $this->loadView("InscriptionsController/Inscription.html",["name"=>$name]);
+	}
+	
+ }
