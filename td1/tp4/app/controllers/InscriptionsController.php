@@ -18,7 +18,7 @@ namespace controllers;
 	 *@route("inscription",)
 	**/
 	public function button(){
-		
+	    $this->loadView("InscriptionsController/button.html");
 	}
 
 	

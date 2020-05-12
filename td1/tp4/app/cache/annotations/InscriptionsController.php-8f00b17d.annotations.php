@@ -13,7 +13,7 @@ return array(
     array('#name' => 'get', '#type' => 'Ubiquity\\annotations\\router\\GetAnnotation', "_default","name"=>"Home")
   ),
   'controllers\\InscriptionsController::button' => array(
-    array('#name' => 'route', '#type' => 'Ubiquity\\annotations\\router\\RouteAnnotation', "inscription","name"=>"Button")
+    array('#name' => 'route', '#type' => 'Ubiquity\\annotations\\router\\RouteAnnotation', "inscription",)
   ),
 );
 
