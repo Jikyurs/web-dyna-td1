@@ -23,10 +23,10 @@ namespace controllers;
 	
 	
 	/**
-	 *@route("/do/inscription","methods"=>["get"])
+	 *@route("/do/inscription","methods"=>["post"])
 	**/
 	public function Inscription($name,$mail){
-	    $this->loadView("InscriptionsController/Inscription.html",["name"=>$name]);
+	    $this->loadView("InscriptionsController/Inscription.html",["name"=>$name,"mail"=>$mail]);
 	}
 	
  }
